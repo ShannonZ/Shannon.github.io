@@ -4,96 +4,82 @@
     <meta charset="UTF-8">
     <title>Shannon's Blog-GitHub.io by ShannonZ - Weekly Report</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="./stylesheets/normalize.css" media="screen">
     <link href='http://fonts.useso.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-    <style>
-    	p.tip span{
-	      color:#ff9955;
-    		}
-    	p.tip span.redlabel{color:#f00}
-    	p.tip span.greenlabel{color:#0f0}
-    	p.tip span.blacklabel{color:#000}
+    <link rel="stylesheet" type="text/css" href="./stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="./stylesheets/github-light.css" media="screen">
     	
-    	span.emph{
-    		color:red;
-    		font: italic bold 14px Georgia,serif;}
-    	</style>
+    <script src="javascripts/libs/modernizr.min.js"></script>
+    <script src="javascripts/libs/jquery.min.js"></script>
+		<link href="javascripts/jquery.gallery3d.css" rel="stylesheet">
+		<script src="javascripts/jquery.gallery3d.js"></script>
+		<script src="javascripts/action.js" defer></script>
   </head>
   <body>
     <section class="page-header">
       <h1 class="project-name">Shannon's Weekly Report</h1>
-      <h2 class="project-tagline">课题组：医学影像工程研究所</h2>
+      <h2 class="project-tagline">from Institute of Medical Imaging Engineering @USST</h2>
       <a href="./index.html" class="btn">Index</a>
       <a href="./opengl.html" class="btn">openGL</a>
       <a href="./MATLAB.html" class="btn">MATLAB</a>
-      <a href="#" class="btn">2015-04</a>
+      <a href="#" class="btn">Weekly Report</a>
     </section>
 
     <section class="main-content">
-    	<h2>2015-04-15</h2>
-      <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>本周课题内容</h3>
-<ol><li>Shipping CONTIN to 2D inversion case</li>
-	<img vspace="5" hspace="5" src="images/WeeklyReport/CONTIN16.gif" alt="contin16 demo"><br>
-	<p class="tip"><span>16x16 meshgrid, play at 8x speed, Max Iteration times:100</span></p>
-	<li>Phase Correction</li>
-	<ul><li>original data</li>
-	<img vspace="5" hspace="5" src="images/WeeklyReport/original.png" alt="original data"><br>
-	<p class="tip"><span>(left: origial 2 channel data; right: amplitude)</span></p><br><br>
-	<li>after PC</li>
-	<img vspace="5" hspace="5" src="images/WeeklyReport/SelbyMeanPC.png" alt="data with PC"><br>
-	<li>inversion results</li>
-	<img vspace="5" hspace="5" src="images/WeeklyReport/T2CMP.png" alt="data with PC"></ul>
-	<p class="tip"><span class="redlabel">Best</span><span class="greenlabel">Normal</span><span class="blacklabel">Worse</span></p>
-	</ol>
+    <div id="demo">
+	<a href="./WR/WeeklyReport201505.html">
+		<img src="./WR/images/20150415.jpg" alt="current" width="480" height="260">
+		<p>2015-05-15</p>
+	</a>
+	<a href="./WR/WeeklyReport201504.html#part2">
+		<img src="./WR/images/20150430.jpg" alt="20140415" width="480" height="260">
+		<p>2015-04-30</p>
+	</a>
 
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>进度与计划</h3>
-	<img vspace="5" hspace="5" src="images/WeeklyReport/status.png" alt="data with PC">
-	<p>下阶段主要任务：</p>
-	<ul><li>CONTIN（2D）反演结果</li><li>DSD专利</li></ul>
-	
-	<!--     2015-04-30  --->
-	   	<h2>2015-04-27</h2>
-      <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>本周课题内容</h3>
-<ol><li>CONTIN(2D) Results</li>
-	<p class="tip"><span>&#945=0.01;  Elapsed time: 137.0902 min</span></p>
-	<img vspace="5" hspace="5" src="images/WeeklyReport/contin2d_0.01.png" alt="contin64 0.01"><br>
-	<p class="tip"><span>&#945=0.1;  Elapsed time: 192.0366 min.</span></p>
-	<img vspace="5" hspace="5" src="images/WeeklyReport/contin2d_0.1.png" alt="contin64 0.1">
-	<p class="tip"><span>&#945=0.1;  Elapsed time: 138.4185 min.</span></p>
-	<img vspace="5" hspace="5" src="images/WeeklyReport/contin2d_1.png" alt="contin64 1"><br>
-	<li>Phase Correction</li>
-	<ul><li><span class="emph">NEEDED!!!</span></li>
-	<img vspace="5" hspace="5" src="images/WeeklyReport/PC2.png" alt="DEMO PC data"><br>
-	<img vspace="5" hspace="5" src="images/WeeklyReport/PC1.png" alt="DEMO PC data"><br>
-	<li>Analysis</li>
-	<p>The signal amplitude is always positive even at large time.<br>
-     However, as we know, the signal decays as time increases, and it will finally approach zero.</p>
-  <p>The amplitude which contains only positive data cannot be used for estimating the relaxation time distribution.
-     Because the never approaching zero signal will be interpreted as the result of a long relaxation time. Also, the standard deviation of noise cannot be calculated from the amplitude.</p>
-	<li>More...</li>
-	<img vspace="5" hspace="5" src="images/WeeklyReport/PC3.png" alt="data with PC"></ul>
-	<li>Phase Cycling</li>
-	<ul><li>Introduction</li>
-	<img vspace="5" hspace="5" src="images/WeeklyReport/PCy1.png" alt="DEMO PC data">
-	<li>Example</li>
-		<img vspace="5" hspace="5" src="images/WeeklyReport/PCy2.png" alt="DEMO PC data">
-		<img vspace="5" hspace="5" src="images/WeeklyReport/PCy3.png" alt="DEMO PC data">
-	</ol>
+	<a href="./WR/WeeklyReport201504.html">
+		<img src="./WR/images/20150415.jpg" alt="20150430" width="480" height="260">
+		<p>2015-04-15</p>
+	</a>
 
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>进度与计划</h3>
-	<p>previous state</p>
-	<img vspace="5" hspace="5" src="images/WeeklyReport/status.png" alt="status 2015-04-15">
-	<p>current state</p>
-	<img vspace="5" hspace="5" src="images/WeeklyReport/plan.png" alt="status 2015-04-30">
-	<p>下阶段主要任务：</p>
-	<ul><li>反演结果对比与评价</li><br><li>DSD专利</li></ul>
-	
+	<a href="#">
+		<img src="./WR/images/comingsoon.png" alt="comingsoon" width="480" height="260">
+		<p>Coming Soon...</p>
+	</a>
+			<!--
+	<a href="http://yamoo9.com/book/ex/05">
+		<img src="include/images/5.jpg" alt="Yamoo图书第5章实例" width="480" height="260">
+		<p>http://yamoo9.com/book/ex/05</p>
+	</a>
+	<a href="http://yamoo9.com/book/ex/06">
+		<img src="include/images/6.jpg" alt="Yamoo图书第6章实例" width="480" height="260">
+		<p>http://yamoo9.com/book/ex/06</p>
+	</a>
+	<a href="http://yamoo9.com/book/ex/07">
+		<img src="include/images/7.jpg" alt="Yamoo图书第7章实例" width="480" height="260">
+		<p>http://yamoo9.com/book/ex/07</p>
+	</a>
+	<a href="http://yamoo9.com/book/ex/08">
+		<img src="include/images/8.jpg" alt="Yamoo图书第8章实例" width="480" height="260">
+		<p>http://yamoo9.com/book/ex/08</p>
+	</a>
+	<a href="http://yamoo9.com/book/ex/09">
+		<img src="include/images/9.jpg" alt="Yamoo图书第9章实例" width="480" height="260">
+		<p>http://yamoo9.com/book/ex/09</p>
+	</a>
+	<a href="http://yamoo9.com/book/ex/10">
+		<img src="include/images/10.jpg" alt="Yamoo图书第10章实例" width="480" height="260">
+		<p>http://yamoo9.com/book/ex/10</p>
+	</a>
+	<a href="http://yamoo9.com/book/ex/11">
+		<img src="include/images/11.jpg" alt="额外实例: 3D展示网站" width="480" height="260">
+		<p>http://yamoo9.com/book/ex/11</p>
+	</a>
+	<a href="http://yamoo9.com/book/ex/12">
+		<img src="include/images/12.jpg" alt="额外实例: Canvas Photo Gallery" width="480" height="260">
+		<p>http://yamoo9.com/book/ex/12</p>
+	</a>
+	-->
+</div><!-- e: #demo -->
 
 <h3>
 <a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
