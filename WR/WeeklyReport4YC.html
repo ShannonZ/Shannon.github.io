@@ -1,74 +1,125 @@
-﻿<!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Shannon's Blog-GitHub.io by ShannonZ - Weekly Report</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="../stylesheets/normalize.css" media="screen">
-    <link href='http://fonts.useso.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="../stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="../stylesheets/github-light.css" media="screen">
-    <style>
-    	p.tip span{
-	      color:#ff9955;
-    		}
-    	p.tip span.redlabel{color:#f00}
-    	p.tip span.greenlabel{color:#0f0}
-    	p.tip span.blacklabel{color:#000}
-    	
-    	span.emph{
-    		color:red;
-    		font: italic bold 14px Georgia,serif;}
-    	span.text{
-    		color:black;
-    		font: normal 13px Georgia,serif;
-    	}
-    	</style>
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Shannon's Weekly Report</h1>
-      <h2 class="project-tagline">from Institute of Medical Imaging Engineering @USST</h2>
-      <a href="../index.html" class="btn">Index</a>
-      <a href="../opengl.html" class="btn">openGL</a>
-      <a href="../MATLAB.html" class="btn">MATLAB</a>
-      <a href="../WeeklyReport.html" class="btn">Weekly Report</a>
-    </section>
+﻿
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>&#25968;&#25454;&#20998;&#26512;&#27969;&#31243;</title><meta name="generator" content="MATLAB 8.5"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2016-04-08"><meta name="DC.source" content="fullPip.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
 
-    <section class="main-content">
-    	<h2>2015-07-02</h2>
-      <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>本月课题内容</h3>
-<ol><li>SQUARE原理</li>
-	<span class='text'>原始问题</span><br>
-	<img vspace="5" hspace="5" src="images/201506/original.jpg" alt="original problem"><br>
-	<span class='emph'>转换为</span><br>
-	<img vspace="5" hspace="5" src="images/201506/new.jpg" alt="new problem"><br>
-	<span class='text'>一、二阶导数</span><br>
-	<img vspace="5" hspace="5" src="images/201506/J.jpg" alt="J"><br>
-	<img vspace="5" hspace="5" src="images/201506/g.jpg" alt="g"><br>
-	<img vspace="5" hspace="5" src="images/201506/H.jpg" alt="H"><br><br>
-	<li>对比实验</li>
-	<img vspace="0" hspace="5" src="images/201506/demo1.png" alt="demo1">
-	<img vspace="5" hspace="5" src="images/201506/demo2.png" alt="demo2"><br>
-	<img vspace="5" hspace="5" src="images/201506/demo3.png" alt="demo3"><br>
-	<img vspace="5" hspace="5" src="images/201506/demo4.png" alt="demo4"><br>
-	<img vspace="5" hspace="5" src="images/201506/demo5.png" alt="demo5"><br><br>
-	<li>总结与评价</li>
-	<p class="tip"><span class="blacklabel">SQUARE得到的结果比BRD更为平滑，前者正则化程度更高</span></p>
-	<p class="tip"><span class="blacklabel">二者均需要使用L曲线进行正则化因子选择</span></p>
-	<p class="tip"><span class="blacklabel">BRD法产生的杂峰来自数据压缩部分</span></p>
-</ol>
-	
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>下阶段工作计划</h3>
-  <ul><li>SQUARE二维化</li><br>
-  	<img vspace="5" hspace="5" src="images/201506/TRprofile.jpg" alt="Trust-Region Profile"><br>
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; } 
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style></head><body><div class="content"><h1>&#25968;&#25454;&#20998;&#26512;&#27969;&#31243;</h1><!--introduction--><!--/introduction--><h2>Contents</h2><div><ul><li><a href="#1">&#35835;&#20837;&#25968;&#25454;</a></li><li><a href="#2">&#32452;&#20869;&#37197;&#23545;T-test</a></li><li><a href="#3">&#32452;&#38388;&#20559;&#20391;&#21270;T-test</a></li><li><a href="#4">&#32452;&#38388;&#21322;&#29699;&#24046;&#24322;T-test</a></li></ul></div><h2>&#35835;&#20837;&#25968;&#25454;<a name="1"></a></h2><p>&#25551;&#36848;&#20449;&#24687;</p><h2>&#32452;&#20869;&#37197;&#23545;T-test<a name="2"></a></h2><p>Rhemi v.s. Lhemi</p><pre class="codeoutput">                                                                 Control&#32452;: &#21491;&#21322;&#33041; v.s. &#24038;&#21322;&#33041; 
+________________________________________________________________________________________________________________________________________________________
+                        Eg              Eloc                Cp                Lp     Assortativity         Hierarchy        modularity   synchronization
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+p-value:            0.0001            0.0000            0.4071            0.0001            0.0031            0.3081            0.4213            0.0002
+t-value:            4.2207            6.9690            0.8385           -4.2101            3.1613           -1.0324           -0.8132           -4.0841
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+&#20855;&#26377;&#26174;&#33879;&#24046;&#24322;&#30340;&#29305;&#24449;&#21442;&#25968;&#26377; 5 &#20010;: 
+                  Eg                Eloc                  Lp       Assortativity     synchronization
+ 
+                                                                 Dyslexia&#32452;: &#21491;&#21322;&#33041; v.s. &#24038;&#21322;&#33041; 
+________________________________________________________________________________________________________________________________________________________
+                        Eg              Eloc                Cp                Lp     Assortativity         Hierarchy        modularity   synchronization
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+p-value:            0.0327            0.0000            0.1254            0.0325            0.0010            0.2079            0.0336            0.0022
+t-value:            2.2201            5.2109            1.5779           -2.2226            3.6376           -1.2824            2.2250           -3.3300
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+&#20855;&#26377;&#26174;&#33879;&#24046;&#24322;&#30340;&#29305;&#24449;&#21442;&#25968;&#26377; 6 &#20010;: 
+                  Eg                Eloc                  Lp       Assortativity          modularity     synchronization
+ 
+</pre><img vspace="5" hspace="5" src="fullPip_01.png" alt=""> <img vspace="5" hspace="5" src="fullPip_02.png" alt=""><br> <img vspace="5" hspace="5" src="fullPip_03.png" alt=""> <img vspace="5" hspace="5" src="fullPip_04.png" alt=""> <h2>&#32452;&#38388;&#20559;&#20391;&#21270;T-test<a name="3"></a></h2><p>&#21452;&#26679;&#26412;T-test</p><pre class="codeoutput">                                             &#20559;&#20391;&#21270;&#65306; Control&#32452; v.s Dyslexia&#32452; 
+____________________________________________________________________________________________________________________
+                        Eg              Eloc                Lp     Assortativity        modularity   synchronization
+--------------------------------------------------------------------------------------------------------------------
+p-value:            0.3150            0.7945            0.3150            0.2233            0.0828            0.8566
+t-value:            1.0140            0.2617           -1.0140           -1.2317           -1.7670           -0.1815
+--------------------------------------------------------------------------------------------------------------------
+&#20855;&#26377;&#26174;&#33879;&#24046;&#24322;&#30340;&#29305;&#24449;&#21442;&#25968;&#26377; 0 &#20010;: 
+
+ 
+</pre><h2>&#32452;&#38388;&#21322;&#29699;&#24046;&#24322;T-test<a name="4"></a></h2><p>&#21452;&#26679;&#26412;T-test</p><pre class="codeoutput">                                                             &#20559;&#20391;&#21270;&#65306; Control&#32452; &#21491; v.s Dyslexia&#32452; &#21491; 
+________________________________________________________________________________________________________________________________________________________
+                        Eg              Eloc                Cp                Lp     Assortativity         Hierarchy        modularity   synchronization
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+p-value:            0.0002            0.0000            0.5769            0.0002            0.2908            0.7317            0.5675            0.1983
+t-value:            4.0432            4.7892            0.5612           -3.9736            1.0665           -0.3445           -0.5752           -1.3017
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+&#20855;&#26377;&#26174;&#33879;&#24046;&#24322;&#30340;&#29305;&#24449;&#21442;&#25968;&#26377; 3 &#20010;: 
+                  Eg                Eloc                  Lp
+ 
+                                                             &#20559;&#20391;&#21270;&#65306; Control&#32452; &#24038; v.s Dyslexia&#32452; &#24038; 
+________________________________________________________________________________________________________________________________________________________
+                        Eg              Eloc                Cp                Lp     Assortativity         Hierarchy        modularity   synchronization
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+p-value:            0.0105            0.0002            0.2422            0.0125            0.0189            0.3616            0.1355            0.2374
+t-value:            2.6470            3.9659            1.1819           -2.5801            2.4174           -0.9199            1.5147           -1.1943
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+&#20855;&#26377;&#26174;&#33879;&#24046;&#24322;&#30340;&#29305;&#24449;&#21442;&#25968;&#26377; 4 &#20010;: 
+                  Eg                Eloc                  Lp       Assortativity
+ 
+</pre></div>
+
   	
-  	
-  	
-  	<li>成果整理</li></ul>
-	<div id="disqus_thread"></div>
+<div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = 'shannonz';
