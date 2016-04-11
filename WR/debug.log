@@ -7,3 +7,69 @@
 [0409/201147:ERROR:process_info.cc(608)] range at 0xff2c7000, size 0x230 fully unreadable
 [0409/201147:ERROR:process_info.cc(608)] range at 0xff2cf000, size 0xf84 fully unreadable
 [0409/201147:ERROR:process_info.cc(608)] range at 0xff4be000, size 0xf84 fully unreadable
+[0411/184706:ERROR:process_info.cc(608)] range at 0xff5cf000, size 0x230 fully unreadable
+[0411/184706:ERROR:process_info.cc(608)] range at 0xff8ee000, size 0x230 fully unreadable
+[0411/184706:ERROR:process_info.cc(608)] range at 0xff8ed000, size 0xf84 fully unreadable
+[0411/184706:ERROR:process_info.cc(608)] range at 0xff5ce000, size 0xf84 fully unreadable
+[0411/185308:ERROR:process_info.cc(608)] range at 0xff0f6000, size 0x230 fully unreadable
+[0411/185308:ERROR:process_info.cc(608)] range at 0xff0ff000, size 0xf84 fully unreadable
+[0411/185308:ERROR:process_reader_win.cc(232)] ReadMemory at 0xaf6000 of 40960 bytes failed: ½öÍê³É²¿·ÖµÄ ReadProcessMemory »ò WriteProcessMemory ÇëÇó¡£ (0x12B)
+[0411/185308:ERROR:crash_report_exception_handler.cc(102)] WriteEverything failed
+[0411/185308:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess, ntstatus=-1073741558
+[0411/190200:ERROR:process_info.cc(608)] range at 0xff03a000, size 0x230 fully unreadable
+[0411/190200:ERROR:process_info.cc(608)] range at 0xfe56d000, size 0x230 fully unreadable
+[0411/190200:ERROR:process_info.cc(608)] range at 0xfeab6000, size 0x230 fully unreadable
+[0411/190200:ERROR:process_reader_win.cc(141)] SuspendThread: ¾Ü¾ø·ÃÎÊ¡£ (0x5)
+[0411/190200:ERROR:process_info.cc(608)] range at 0xff03e000, size 0xf84 fully unreadable
+[0411/190200:ERROR:process_reader_win.cc(141)] SuspendThread: ¾Ü¾ø·ÃÎÊ¡£ (0x5)
+[0411/190200:ERROR:process_reader_win.cc(141)] SuspendThread: ¾Ü¾ø·ÃÎÊ¡£ (0x5)
+[0411/190200:ERROR:process_info.cc(608)] range at 0xfe56c000, size 0xf84 fully unreadable
+[0411/190200:ERROR:process_info.cc(608)] range at 0xfeabe000, size 0xf84 fully unreadable
+[0411/190200:ERROR:process_info.cc(608)] range at 0xff464000, size 0x230 fully unreadable
+[0411/190200:ERROR:process_info.cc(608)] range at 0xff46d000, size 0xf84 fully unreadable
+[0411/190708:ERROR:process_info.cc(608)] range at 0xff4ac000, size 0x230 fully unreadable
+[0411/190708:ERROR:process_info.cc(608)] range at 0xffb39000, size 0x230 fully unreadable
+[0411/190708:ERROR:process_reader_win.cc(141)] SuspendThread: ¾Ü¾ø·ÃÎÊ¡£ (0x5)
+[0411/190708:ERROR:process_info.cc(608)] range at 0xff4af000, size 0xf84 fully unreadable
+[0411/190708:ERROR:process_reader_win.cc(141)] SuspendThread: ¾Ü¾ø·ÃÎÊ¡£ (0x5)
+[0411/190708:ERROR:process_info.cc(608)] range at 0xffb3e000, size 0xf84 fully unreadable
+[0411/190708:ERROR:process_info.cc(608)] range at 0xffac7000, size 0x230 fully unreadable
+[0411/190708:ERROR:process_reader_win.cc(141)] SuspendThread: ¾Ü¾ø·ÃÎÊ¡£ (0x5)
+[0411/190708:ERROR:process_info.cc(608)] range at 0xffacc000, size 0xf84 fully unreadable
+[0411/190708:ERROR:process_info.cc(608)] range at 0xff3df000, size 0x230 fully unreadable
+[0411/190708:ERROR:process_info.cc(608)] range at 0xff3dd000, size 0xf84 fully unreadable
+[0411/190726:ERROR:process_info.cc(608)] range at 0xfeb99000, size 0x230 fully unreadable
+[0411/190726:ERROR:process_info.cc(608)] range at 0xfe2e5000, size 0x230 fully unreadable
+[0411/190726:ERROR:process_info.cc(608)] range at 0xfeea9000, size 0x230 fully unreadable
+[0411/190726:ERROR:process_reader_win.cc(141)] SuspendThread: ¾Ü¾ø·ÃÎÊ¡£ (0x5)
+[0411/190726:ERROR:process_reader_win.cc(141)] SuspendThread: ¾Ü¾ø·ÃÎÊ¡£ (0x5)
+[0411/190726:ERROR:process_reader_win.cc(141)] SuspendThread: ¾Ü¾ø·ÃÎÊ¡£ (0x5)
+[0411/190726:ERROR:process_info.cc(608)] range at 0xfeb9f000, size 0xf84 fully unreadable
+[0411/190726:ERROR:process_reader_win.cc(141)] SuspendThread: ¾Ü¾ø·ÃÎÊ¡£ (0x5)
+[0411/190726:ERROR:process_reader_win.cc(141)] SuspendThread: ¾Ü¾ø·ÃÎÊ¡£ (0x5)
+[0411/190726:ERROR:process_reader_win.cc(141)] SuspendThread: ¾Ü¾ø·ÃÎÊ¡£ (0x5)
+[0411/190726:ERROR:process_info.cc(608)] range at 0xfe2ee000, size 0xf84 fully unreadable
+[0411/190726:ERROR:process_reader_win.cc(141)] SuspendThread: ¾Ü¾ø·ÃÎÊ¡£ (0x5)
+[0411/190726:ERROR:process_info.cc(608)] range at 0xfeeae000, size 0xf84 fully unreadable
+[0411/190727:ERROR:process_info.cc(608)] range at 0xfedce000, size 0x230 fully unreadable
+[0411/190727:ERROR:process_info.cc(608)] range at 0xfedcd000, size 0xf84 fully unreadable
+[0411/190912:ERROR:process_info.cc(608)] range at 0xff064000, size 0x230 fully unreadable
+[0411/190912:ERROR:process_info.cc(608)] range at 0xff68f000, size 0x230 fully unreadable
+[0411/190912:ERROR:process_reader_win.cc(141)] SuspendThread: ¾Ü¾ø·ÃÎÊ¡£ (0x5)
+[0411/190912:ERROR:process_info.cc(608)] range at 0xff06f000, size 0xf84 fully unreadable
+[0411/190912:ERROR:process_info.cc(608)] range at 0xfefcd000, size 0x230 fully unreadable
+[0411/190912:ERROR:process_reader_win.cc(141)] SuspendThread: ¾Ü¾ø·ÃÎÊ¡£ (0x5)
+[0411/190912:ERROR:process_info.cc(608)] range at 0xfefcc000, size 0xf84 fully unreadable
+[0411/190912:ERROR:process_info.cc(608)] range at 0xfe9fb000, size 0x230 fully unreadable
+[0411/190912:ERROR:process_info.cc(608)] range at 0xfe9ff000, size 0xf84 fully unreadable
+[0411/191026:ERROR:process_info.cc(608)] range at 0xff686000, size 0x230 fully unreadable
+[0411/191026:ERROR:process_reader_win.cc(141)] SuspendThread: ¾Ü¾ø·ÃÎÊ¡£ (0x5)
+[0411/191026:ERROR:process_reader_win.cc(141)] SuspendThread: ¾Ü¾ø·ÃÎÊ¡£ (0x5)
+[0411/191026:ERROR:process_reader_win.cc(141)] SuspendThread: ¾Ü¾ø·ÃÎÊ¡£ (0x5)
+[0411/191026:ERROR:process_info.cc(608)] range at 0xff68f000, size 0xf84 fully unreadable
+[0411/191026:ERROR:process_info.cc(608)] range at 0xfef28000, size 0x230 fully unreadable
+[0411/191026:ERROR:process_info.cc(608)] range at 0xfe3db000, size 0x230 fully unreadable
+[0411/191026:ERROR:process_info.cc(608)] range at 0xfef2f000, size 0xf84 fully unreadable
+[0411/191026:ERROR:process_info.cc(608)] range at 0xfe3df000, size 0xf84 fully unreadable
+[0411/191026:ERROR:process_info.cc(608)] range at 0xffcbd000, size 0x230 fully unreadable
+[0411/191026:ERROR:process_info.cc(608)] range at 0xffcbc000, size 0xf84 fully unreadable
